@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link href="https://static.how2j.cn/css/all.css" rel="stylesheet">
 <title>万事屋校园版</title>
 <meta name="万事屋校园版"content="大学生互助平台">
 <meta name="author"  content="zhangguolin">
 <meta name="copyright" content="指掌天下工作室">
 <meta charset="utf-8">
 <style>
+  table{
+    margin-bottom:49px;
+  }
+  .keywordSearch{
+  float:right;
+}
+#title{
+ 
+  background-color:#46a3ff;
+  height:25px;
+margin-top:30px;
+}
+a{ 
+  
+  color:white;
+  text-decoration:none;
+}
+
 
 h1{
+  background-color:#f0f0f0;
      display:flex;
      justify-content:center;
      
@@ -17,28 +36,66 @@ h1{
 
   
 #schoolBadge{  
-    margin-top:20px;
-    width:100px;
-    height:80px;
-    float:right;
+   
+    width:50px;
+    height:40px;
+    float:left;
 }
 
+#home{
+  margin-top:10px;
+  height:500px;
+}
+.right{
+  width:70%;
+  height:100%;
+  float:right;
+  border:1px solid black;
+}
+.left{
+  height:100%;
+  width:30%;
+  background-color:#97cbff;
+}
 </style>
 </head>
-<body link="#46a3ff"  vlink="#930093" >
+<table>
+
+<div class="keywordSearch">
+  <input style="margin-top:6px" type="text" placeholder="搜索..."/>
+<button class="btn btn-default" type="submit">
+											<span class="glyphicon glyphicon-search"></span>
+										</button></div >
+ <img id="schoolBadge" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3906305912,3751225767&fm=26&gp=0.jpg">
+</table>
 
 <div id="title">
-
+<tr>
 <a href="#">校园消息</a>
 <a href="#">外卖</a>
 <a href="#">高数</a>
 <a href="#">英语</a>
 <a href="#">电子学</a>
-<img id="schoolBadge" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3906305912,3751225767&fm=26&gp=0.jpg">
+</tr>
 </div>
+</table>
+<div id="home">
+  <div class="right">
 <h1>任务中心</h1>
-<hr>
-<image src="http://img1.imgtn.bdimg.com/it/u=3144160099,475140048&fm=26&gp=0.jpg"/>
-<p>一个人的快乐，不是应为他拥有的多，而是因为他没有女朋友</p>
+<hr/>
+</div>
+<div class="left">
+  <ul>
+<li><a href="#">大一上</a></li>
+<li><a href="#">大一下</a></li>
+<li><a href="#">大二上</a></li>
+<li><a href="#">大二下</a></li>
+<li><a href="#">大三上</a></li>
+<li><a href="#">大三下</a></li>
+
+  </ul>
+</div>
+</div>
+<p>一个人的快乐，不是应为他拥有的多，也不是因为他计较得少，而是因为他没有女朋友</p>
 </body>
 </html>
